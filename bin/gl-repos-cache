@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "gl-repos/main"
+include Fetcher
+Fetcher.fetch()
