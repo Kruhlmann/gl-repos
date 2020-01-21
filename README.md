@@ -6,7 +6,7 @@
 
 Lists GitLab repos for piping into programs such as dmenu
 
-## gl-repos-cache
+## `gl-repos-cache`
 
 Caches all available GitLab repositories in a local file.
 
@@ -21,7 +21,7 @@ Caches all available GitLab repositories in a local file.
 * `GITLAB_REPO_CACHE` File to store cache in
 
 
-## gl-repos-list
+## `gl-repos-list`
 
 Lists all repos from the cache. Useful for programs such as dmenu.
 
