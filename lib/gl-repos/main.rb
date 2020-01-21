@@ -3,9 +3,6 @@ require "gitlab"
 module Fetcher
 
   def print()
-    if not File.exist? ENV["GITLAB_REPO_CACHE"]
-      fetch()
-    end
     File.open(ENV["GITLAB_REPO_CACHE"], "r:UTF-8") do |file_handle|
       file_handle.each_line do |repo|
         if repo.length > 0

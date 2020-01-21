@@ -33,8 +33,6 @@ Lists all repos from the cache. Useful for programs such as dmenu.
 
 * `GITLAB_REPO_CACHE` File to read cache from.
 
-(`GITLAB_ENDPOINT` and `GITLAB_TOKEN` are required if no cache exists).
-
 ## Example
 
 ```sh
