@@ -1,7 +1,7 @@
 # gl-repos
 
 [![Gem](https://img.shields.io/gem/v/gl-repos?style=for-the-badge)](https://rubygems.org/gems/gl-repos)
-[![Build status](https://img.shields.io/github/workflow/status/Kruhlmann/gl-repos/gempush/publish?style=for-the-badge)](https://github.com/Kruhlmann/gl-repos/actions)
+[![Build status](https://img.shields.io/github/workflow/status/kruhlmann/gl-repos/gempush/publish?style=for-the-badge)](https://github.com/Kruhlmann/gl-repos/actions)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/Kruhlmann/gl-repos?style=for-the-badge)](https://codeclimate.com/github/Kruhlmann/gl-repos/maintainability)
 
 Lists GitLab repos for piping into programs such as dmenu
