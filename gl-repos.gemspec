@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name          = 'gl-repos'
-    s.version       = '0.0.1'
+    s.version       = '0.0.2'
     s.date          = '2020-01-21'
     s.summary       = "Lists GitLab repos and their corresponding URLs"
     s.description   = ""
