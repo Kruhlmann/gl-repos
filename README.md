@@ -37,7 +37,7 @@ Lists all repos from the cache. Useful for programs such as dmenu.
 
 ```sh
 # gl.sh
-$BROWSER `grep -i "$(gl-repos-list | dmenu -i -l 10)" ~/.repo-cache | awk '{sub(/.*:/,"")}1' | awk '{ print "https:" $1 }'`
+$BROWSER `grep -i "$(gl-repos-list | dmenu -i -l 10)" $GITLAB_REPO_CACHE | awk '{sub(/.*:/,"")}1' | awk '{ print "https:" $1 }'`
 ```
 
 Presents a list of readable repositories and opens the chosen one in the default browser.
